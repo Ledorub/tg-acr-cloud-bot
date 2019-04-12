@@ -11,6 +11,9 @@ pyvenv.cfg
 __pycache__
 *.sqlite3
 
+# Project
+secret.py
+
 # acr_bot
 acr_bot/bot/config.py
 
