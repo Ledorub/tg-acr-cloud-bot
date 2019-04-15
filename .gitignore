@@ -5,6 +5,7 @@
 *.py[cod]
 
 # VEnv
+Scripts/
 pyvenv.cfg
 
 # Django
@@ -15,7 +16,7 @@ __pycache__
 secret.py
 
 # acr_bot
-# acr_bot/bot/config.py
+acr_bot/bot/config.py
 
 # Packaging
 Lib/
