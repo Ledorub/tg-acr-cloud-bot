@@ -1,14 +1,14 @@
 # Telegram API
 token = ''
 
-# Webhook URL.
-url = f'https://example.com/bot/{token}/'
+# Bot URL.
+url = f'https://api.telegram.org/bot{token}/'
 
 # Bot files URL.
 url_file = f'https://api.telegram.org/file/bot{token}/'
 
-# Tor proxy. If Telegram servers are blocked.
-https_proxy = 'socks5://127.0.0.1:9050'
+# If Telegram servers are blocked.
+https_proxy = ''
 proxies = {
     'http': https_proxy,
     'https': https_proxy
@@ -21,3 +21,6 @@ acr_config = {
     'access_secret': '',
     'timeout': 5
 }
+
+# Webhook URL.
+url_wh = f'example.com/bot/{token}'

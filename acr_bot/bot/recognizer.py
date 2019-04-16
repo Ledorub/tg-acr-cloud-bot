@@ -1,5 +1,5 @@
 from acrcloud.recognizer import ACRCloudRecognizer
-from acr_bot.bot.config import acr_config
+from acr_bot.config import acr_config
 
 
 def get_recognizer():

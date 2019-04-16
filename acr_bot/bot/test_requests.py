@@ -8,7 +8,7 @@ import requests
 from multiprocessing import Pool, current_process
 from requests.exceptions import ConnectionError
 from json import dumps
-from config import url
+from acr_bot.config import url_wh
 
 
 def send_post(body):
@@ -20,7 +20,7 @@ def send_post(body):
     response = None
     print('Sending request...')
     try:
-        response = requests.post(url, data=dumps(body))
+        response = requests.post(url_wh, data=dumps(body))
     except ConnectionError as error:
         print(current_process().name, error)
     print(response)
@@ -139,5 +139,5 @@ data = ({
 
 
 if __name__ == '__main__':
-    iterations = 3
+    iterations = 1
     handle(iterations)

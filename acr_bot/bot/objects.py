@@ -10,7 +10,7 @@ import acr_bot.bot.exceptions as exceptions
 from json import loads
 from datetime import date
 from string import Template
-from acr_bot.bot.config import url, url_file, proxies
+from acr_bot.config import url, url_file, proxies
 from acr_bot.bot.recognizer import get_recognizer
 
 
